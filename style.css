@@ -1,0 +1,36 @@
+/* 
+Styles associated with basic plugin. 
+Override and add styles at the theme level.
+*/
+
+/*Accordian*/
+
+._accordian-title { 
+	font-size: 20px;
+	color: inherit;
+	padding: 10px;
+}
+._accordian-title:hover {
+	cursor: pointer;
+}
+._accordian-content {
+padding: 15px 15px 20px;
+}
+
+/*Responsive Video*/
+
+.video-container {
+	position:relative;
+	padding-bottom:56.25%;
+	padding-top:30px;
+	height:0;
+	overflow:hidden;
+}
+
+.video-container iframe, .video-container object, .video-container embed {
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+}
